@@ -61,6 +61,12 @@
                 <li><a href="#ex_datepicker">Datepicker</a></li>
                 <li><a href="#ex_datetimepicker">Datetimepicker</a></li>
                 <li><a href="#ex_dropdownlist">DropDownList</a></li>
+                <li><a href="#ex_marskedtextbox">Marsked textbox</a></li>
+                <li><a href="#ex_multiselect">MultiSelect</a></li>
+                <li><a href="#ex_numerictextbox">NumericTextBox</a></li>
+                <li><a href="#ex_slider">Slider</a></li>
+                <li><a href="#ex_timepicker">TimePicker</a></li>
+                
               </ul>
             </li>
           </ul>
@@ -332,12 +338,12 @@
         <h1 id="ex_badges">Badges</h1>
       </div>
       <p>
-        <a href="http://getbootstrap.com/examples/theme/#">Inbox <span class="badge">42</span></a>
+        <a href="#">Inbox <span class="badge">42</span></a>
       </p>
       <ul class="nav nav-pills" role="tablist">
-        <li role="presentation" class="active"><a href="http://getbootstrap.com/examples/theme/#">Home <span class="badge">42</span></a></li>
-        <li role="presentation"><a href="http://getbootstrap.com/examples/theme/#">Profile</a></li>
-        <li role="presentation"><a href="http://getbootstrap.com/examples/theme/#">Messages <span class="badge">3</span></a></li>
+        <li role="presentation" class="active"><a href="#">Home <span class="badge">42</span></a></li>
+        <li role="presentation"><a href="#">Profile</a></li>
+        <li role="presentation"><a href="#">Messages <span class="badge">3</span></a></li>
       </ul>
 
 
@@ -345,13 +351,13 @@
         <h1 id="ex_dropdown_menus">Dropdown menus</h1>
       </div>
       <div class="dropdown theme-dropdown clearfix">
-        <a id="dropdownMenu1" href="http://getbootstrap.com/examples/theme/#" class="sr-only dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+        <a id="dropdownMenu1" href="#" class="sr-only dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-          <li class="active"><a href="http://getbootstrap.com/examples/theme/#">Action</a></li>
-          <li><a href="http://getbootstrap.com/examples/theme/#">Another action</a></li>
-          <li><a href="http://getbootstrap.com/examples/theme/#">Something else here</a></li>
+          <li class="active"><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
           <li role="separator" class="divider"></li>
-          <li><a href="http://getbootstrap.com/examples/theme/#">Separated link</a></li>
+          <li><a href="#">Separated link</a></li>
         </ul>
       </div>
 
@@ -360,14 +366,14 @@
         <h1 id="ex_navs">Navs</h1>
       </div>
       <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active"><a href="http://getbootstrap.com/examples/theme/#">Home</a></li>
-        <li role="presentation"><a href="http://getbootstrap.com/examples/theme/#">Profile</a></li>
-        <li role="presentation"><a href="http://getbootstrap.com/examples/theme/#">Messages</a></li>
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="#">Profile</a></li>
+        <li role="presentation"><a href="#">Messages</a></li>
       </ul>
       <ul class="nav nav-pills" role="tablist">
-        <li role="presentation" class="active"><a href="http://getbootstrap.com/examples/theme/#">Home</a></li>
-        <li role="presentation"><a href="http://getbootstrap.com/examples/theme/#">Profile</a></li>
-        <li role="presentation"><a href="http://getbootstrap.com/examples/theme/#">Messages</a></li>
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="#">Profile</a></li>
+        <li role="presentation"><a href="#">Messages</a></li>
       </ul>
 
 
@@ -691,6 +697,77 @@
       
       <input id="dropdownlist" value="1" />
       
+      <div class="page-header">
+        <h1 id="ex_dropdownlist">Marsked textbox</h1>
+      </div>
+      
+      <label for="phone_number">Phone number:</label>
+      <input id="phone_number" value="555 123 4567" /><br><br>
+      
+      <label for="credit_card">Credit Card number:</label>
+      <input id="credit_card" value="1234 1234 1234 1234" /><br><br>
+      
+      <label for="ssn">Social security number:</label>
+      <input id="ssn" value="003-12-3456" /><br><br>
+      
+      <label for="postcode">UK postcode:</label>
+      <input id="postcode" value="W1N 1AC"/><br><br>
+      
+      <div class="page-header">
+        <h1 id="ex_multiselect">MultiSelect</h1>
+      </div>
+      
+      <select id="required" multiple="multiple" data-placeholder="Select attendees...">
+          <option>Steven White</option>
+          <option>Nancy King</option>
+          <option>Nancy Davolio</option>
+          <option>Robert Davolio</option>
+          <option>Michael Leverling</option>
+          <option>Andrew Callahan</option>
+          <option>Michael Suyama</option>
+          <option selected>Anne King</option>
+          <option>Laura Peacock</option>
+          <option>Robert Fuller</option>
+          <option>Janet White</option>
+          <option>Nancy Leverling</option>
+          <option>Robert Buchanan</option>
+          <option>Margaret Buchanan</option>
+          <option selected>Andrew Fuller</option>
+          <option>Anne Davolio</option>
+          <option>Andrew Suyama</option>
+          <option>Nige Buchanan</option>
+          <option>Laura Fuller</option>
+      </select>
+      
+      <div class="page-header">
+        <h1 id="ex_numerictextbox">NumericTextBox</h1>
+      </div> 
+      
+      <label for="currency">Price:</label>
+      <input id="currency" type="number" value="30" min="0" max="100" style="width: 100%;" />
+      
+      <label for="percentage">Price Discount:</label>
+      <input id="percentage" value="0.05" style="width: 100%;" />
+
+      <label for="custom">Weight:</label>
+      <input id="custom" value="2" style="width: 100%;" />
+
+      <label for="numeric">Currently in stock:</label>
+      <input id="numeric" type="number" value="17" min="0" max="100" step="1" style="width: 100%;" />
+      
+      <div class="page-header">
+        <h1 id="ex_slider">Slider</h1>
+      </div>
+      
+      <h4>Balance</h4>
+      <input id="slider" class="balSlider" value="0" />
+      
+      <div class="page-header">
+        <h1 id="ex_timepicker">TimePicker</h1>
+      </div>
+      
+      <input id="timepicker" value="10:00 AM" />
+
     </div> <!-- /container -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -826,6 +903,58 @@
                   console.log($("#dropdownlist").val());
                 }
             });
+            
+            // MASKED TEXT BOX
+            $("#phone_number").kendoMaskedTextBox({
+                mask: "(999) 000-0000"
+            });
+
+            $("#credit_card").kendoMaskedTextBox({
+                mask: "0000 0000 0000 0000"
+            });
+
+            $("#ssn").kendoMaskedTextBox({
+                mask: "000-00-0000"
+            });
+
+            $("#postcode").kendoMaskedTextBox({
+                mask: "L0L 0LL"
+            });
+            
+            // MULTI SELECT BOX
+            $("#required").kendoMultiSelect().data("kendoMultiSelect");
+            
+            // NUMERIC TEXT BOX
+            $("#numeric").kendoNumericTextBox();
+
+            $("#currency").kendoNumericTextBox({
+                format: "c",
+                decimals: 3
+            });
+
+            $("#percentage").kendoNumericTextBox({
+                format: "p0",
+                min: 0,
+                max: 0.1,
+                step: 0.01
+            });
+
+            $("#custom").kendoNumericTextBox({
+                format: "#.00 kg"
+            });
+            
+            // SLIDER
+            var slider = $("#slider").kendoSlider({
+                increaseButtonTitle: "Right",
+                decreaseButtonTitle: "Left",
+                min: -10,
+                max: 10,
+                smallStep: 2,
+                largeStep: 1
+            }).data("kendoSlider");
+            
+            // TIME PICKER
+            $("#timepicker").kendoTimePicker();
         });
     </script>
 </body>
