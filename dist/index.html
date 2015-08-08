@@ -20,7 +20,7 @@
   <body role="document" cz-shortcut-listen="true">
 
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -66,7 +66,8 @@
                 <li><a href="#ex_numerictextbox">NumericTextBox</a></li>
                 <li><a href="#ex_slider">Slider</a></li>
                 <li><a href="#ex_timepicker">TimePicker</a></li>
-                
+                <li><a href="#ex_validator">Validator</a></li>
+                <li><a href="#ex_calendar">Calendar</a></li>
               </ul>
             </li>
           </ul>
@@ -646,11 +647,7 @@
         <h1 id="ex_autocomplete">Autocomplete</h1>
       </div>
       
-      <div class="demo-section k-header">
-        <h4>Choose shipping countries:</h4>
-        <input id="countries" style="width: 100%;" />
-        <div class="demo-hint">Start typing the name of an European country</div>
-      </div>
+      <input id="countries" />
       
       <div class="page-header">
         <h1 id="ex_colorpicker">Color & palette picker</h1>
@@ -686,11 +683,8 @@
         <h1 id="ex_datetimepicker">DateTimePicker</h1>
       </div>
       
-      <div class="demo-section k-header">
-          <h4>Remind me on</h4>
-          <input id="datetimepicker" style="width: 100%;" />
-      </div>
-      
+      <input id="datetimepicker" />
+          
       <div class="page-header">
         <h1 id="ex_dropdownlist">DropDownList</h1>
       </div>
@@ -767,6 +761,18 @@
       </div>
       
       <input id="timepicker" value="10:00 AM" />
+      
+      <div class="page-header">
+        <h1 id="ex_validator">Validator</h1>
+      </div>
+      
+      <a class="btn btn-lg btn-default" href="http://demos.telerik.com/kendo-ui/validator/index">demo</a>
+
+      <div class="page-header">
+        <h1 id="ex_calendar">Calendar</h1>
+      </div>
+      
+      <div id="calendar"></div>
 
     </div> <!-- /container -->
 
@@ -955,6 +961,9 @@
             
             // TIME PICKER
             $("#timepicker").kendoTimePicker();
+            
+            // CALENDAR
+            $("#calendar").kendoCalendar();
         });
     </script>
 </body>
