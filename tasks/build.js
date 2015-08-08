@@ -4,7 +4,7 @@ var concat = require('gulp-concat');
 // concat files
 gulp.task('concat', function() {
     return gulp.src(['./bower_components/bootstrap/dist/js/bootstrap.min.js', './bower_components/kendo-ui-core/js/kendo.ui.core.min.js'])
-        .pipe(concat('almerys.ui.js'))
+        .pipe(concat('microscope.ui.js'))
         .pipe(gulp.dest('./dist/js'));
 });
 
