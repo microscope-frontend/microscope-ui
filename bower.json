@@ -9,6 +9,6 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "~3.3.5",
-    "kendo-ui-core": "~2015.2.805+SP1"
+    "kendo-ui-core": "*"
   }
 }
