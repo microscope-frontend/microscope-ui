@@ -1,7 +1,7 @@
 {
-  "name": "almerys-ui",
+  "name": "microscope-ui",
   "version": "0.0.1",
-  "description": "almerys ui frontend framework",
+  "description": "Merge the best of bootstrap & kendo ui core !!!",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
