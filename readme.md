@@ -1,5 +1,5 @@
-Almerys UI
-==========
+microscope UI
+=============
 
 Merge the best of bootstrap & kendo ui core !!!
 
